@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Color Palette */
+    --orange: #FF6700;
+    --lightBlue: #004E98;
+    --darkBlue: #3A6EA5;
+    --lightGray: #EBEBEB;
+
+}
