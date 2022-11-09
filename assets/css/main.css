@@ -14,3 +14,12 @@
     --lightGray: #EBEBEB;
 
 }
+
+
+header, footer{
+    background-color: aqua;
+}
+
+main{
+    background-color: orange;
+}
