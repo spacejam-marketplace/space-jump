@@ -120,13 +120,13 @@ header div:nth-of-type(3) nav ul li {
 /* MAIN */
 main {
     grid-area: main;
-    height: 50vh;
+    height: 100vh;
     background-color: orange;
 }
 
 /* FOOTER */
 footer {
-    height: fit-content;
+    height: 10rem;
     grid-area: footer;
     background-color: var(--lightGray);
     display: grid;
@@ -137,27 +137,36 @@ footer {
 
 footer ul:nth-of-type(1){
     grid-area: item1;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 footer ul:nth-of-type(1){
     grid-area: item2;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 footer ul:nth-of-type(3){
     grid-area: item3;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 }
 
 footer div:nth-of-type(1){
     grid-area: logo;
-    margin: 0 auto;
-}
-
-footer div:nth-of-type(1) p{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
     margin: 0 auto;
 }
 
 footer div:nth-of-type(2){
-    grid-area: 'bottom-footer';
+    grid-area: bottom-footer;
     background-color: var(--darkBlue);
     display: flex;
     justify-content: center;
