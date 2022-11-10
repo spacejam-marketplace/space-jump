@@ -106,7 +106,6 @@ header div:nth-of-type(3) nav ul {
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 header div:nth-of-type(3) nav ul li {
