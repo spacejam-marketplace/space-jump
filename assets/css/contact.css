@@ -1,12 +1,7 @@
-section:nth-of-type(1){
-    display: flex;
-    align-items: center;
-    width: 100vw;
-    height: 3.4em;
-    background-color: #3A6EA5;
+ form { background-color: var(--lightBlue);
+  display: flex;
+  flex-direction: column;
+
 }
 
-section h1{
-    color: white;
-    text-align: center;
-}
+input {max-width: 30%;}
