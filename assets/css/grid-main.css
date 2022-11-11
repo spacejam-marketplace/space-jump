@@ -1,0 +1,31 @@
+main section:nth-of-type(3){
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem 0 5rem 0;
+}
+
+.product{
+    margin: 0 auto;
+    height: fit-content;
+}
+
+.product img{
+    width: 20rem;
+}
+
+.banner-grid{
+    width: 100%;
+    height: 20rem;
+    background-image: url(/space-jump/images/slider/banner-player.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section:nth-of-type(5){
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5rem 0 5rem 0;
+}
