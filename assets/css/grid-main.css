@@ -2,16 +2,8 @@ main section:nth-of-type(3){
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 5rem 0 5rem 0;
-}
-
-.product{
-    margin: 0 auto;
-    height: fit-content;
-}
-
-.product img{
-    width: 20rem;
+    margin-bottom: 5rem;
+    gap: 1rem;
 }
 
 .banner-grid{
@@ -28,4 +20,5 @@ main section:nth-of-type(5){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 5rem 0 5rem 0;
+    gap: 1rem;
 }
