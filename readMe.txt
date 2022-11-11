@@ -1,17 +1,12 @@
-git status (comprobar que estas en la rama correcta)
-git switch nombre-rama (para cambiar de rama)
 
-hacer cambios
+1 - git switch main (cambiar a la rama principal)
 
-git add .
-git commit -m ""
-git switch checkout
-git push origin nombre-rama
+2 - git pull --rebase (Para actualizar la rama principal en nuestro repositorio local)
 
-AVISAR A COMPAÑEROS DE MODIFICACIONES EN EL MODIFICACIONES
+3 - git switch "nuestra rama" (Cambiar de nuevo a nuestra rama de trabajo)
 
-git switch main
-git merge nombre-rama
-git add .
-git commit -m ""
-git push origin main
+4 - git merge main (para traer actualizaciones main a tu rama de trabajo OJO A CONFLICTOS)
+
+5 - git add // git commit // git push !!!!!EN TU RAMA!!!!
+
+6 - Cuando los cambios esten concluidos hacer Pull Request en GitHub
