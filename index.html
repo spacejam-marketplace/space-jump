@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/home-page.css">
     <link rel="stylesheet" href="assets/css/atomicproduct.css">
     <link rel="stylesheet" href="assets/css/grid-main.css">
-
+    <link rel="stylesheet" href="assets/css/modal.css">
 
     <title>SPACE JUMP</title>
 </head>
@@ -19,14 +19,21 @@
         <!-- CONTACT AND CART -->
         <div>
             <button>
-                <img src="images/icon/envelope.svg" alt="envelope">
+                <img class="envelope__icon" src="images/icon/envelope.svg" alt="envelope">
             </button>
-            <button>
-                <img src="images/icon/cart.svg" alt="cart" title="cart">
-                <span>
-                    <p></p>
-                </span>
-            </button>
+            <div class="cart-space">
+                <button>
+                    <img class="cart__icon" src="images/icon/cart.svg" alt="cart" title="cart">
+                    <span>
+                        <p></p>
+                    </span>
+                </button>
+                <div id="cart-space__modal">
+                    <p>Cart items</p>
+                    <div class="cart-space__content"></div>
+                    <button class="cart-space__empty">Empty Cart</button>
+                </div>
+            </div>
         </div>
         <!-- MOBILE HEADER -->
         <div>
@@ -42,18 +49,7 @@
                     <li><a href="#">CONTACT US</a></li>
                 </ul> -->
             </nav>
-
             <img src="images/logo.svg" alt="logo" title="logo">
-
-            <button>
-                <img src="images/icon/envelope-mobile.svg" alt="envelope">
-            </button>
-            <button>
-                <img src="images/icon/cart-mobile.svg" alt="cart" title="cart">
-                <span>
-                    <p></p>
-                </span>
-            </button>
         </div>
 
         <!-- DESKTOP HEADER -->

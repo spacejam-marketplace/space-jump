@@ -1,0 +1,40 @@
+/* ---- Cart Desktop ---- */
+
+.cart-space {
+    position: relative;
+}
+.cart-space #cart-space__modal {
+    display: none;
+
+}
+.cart-space:hover #cart-space__modal{
+    display: block;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 200px;
+    min-width: 450px;
+}
+#cart-space__modal p:nth-child(1){
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: .5rem;
+}
+.cart-space__content{
+    min-height: 200px;
+}
+.cart-space__empty {
+    border-radius: .5rem;
+    padding: .6rem 2rem .6rem 2rem;
+    background-color:white;
+    border: 1px solid #ccc;
+}
+
+/* ---- Cart Mobile ---- */
+
