@@ -42,12 +42,10 @@ input[type="reset"] {
 
 
 /* MAIN LAYOUT */
-main {
-    background-color: orange;
-}
+
 
 body {
-    width: auto;
+    /*width: auto;*/
     display: grid;
     grid-template-areas:
         'contact'
@@ -173,8 +171,7 @@ header div:nth-of-type(2) img{
 /* MAIN */
 main {
     grid-area: main;
-    height: 80vh;
-    background-color: orange;
+    
 }
 
 /* FOOTER */
