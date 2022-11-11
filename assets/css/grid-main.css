@@ -1,7 +1,7 @@
 main section:nth-of-type(3){
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: 5rem;
     gap: 1rem;
 }
@@ -18,7 +18,7 @@ main section:nth-of-type(3){
 main section:nth-of-type(5){
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin: 5rem 0 5rem 0;
     gap: 1rem;
 }

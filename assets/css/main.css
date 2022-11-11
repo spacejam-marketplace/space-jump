@@ -9,6 +9,11 @@
     font-family: 'Raleway', sans-serif;
 }
 
+html{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -54,6 +59,12 @@ body {
         'nav'
         'main'
         'footer';
+}
+
+@media (max-width: 1315px){
+    body{
+        width: 100vw;
+    }
 }
 
 /* CART AND CONTACT DESKTOP */
@@ -185,6 +196,19 @@ main {
 
 .banner-header h1{
     font-size: 1.5rem;
+}
+
+.heading-section{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--orange);
+    padding-left: 2rem;
 }
 
 /* FOOTER */
