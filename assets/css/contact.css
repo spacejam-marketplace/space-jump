@@ -1,0 +1,12 @@
+section:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 3.4em;
+    background-color: #3A6EA5;
+}
+
+section h1{
+    color: white;
+    text-align: center;
+}
