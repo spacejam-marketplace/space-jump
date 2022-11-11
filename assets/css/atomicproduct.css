@@ -4,10 +4,12 @@
     display: flex;
     flex-flow: column nowrap;
     gap: 0.5rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .product img{
     width: 20rem;
+    margin: 0 auto;
 }
 
 .product button{
@@ -19,7 +21,7 @@
     border-radius: 0.5rem;
     color: white;
     position: relative;
-    margin-top: -1rem;
+    margin-top: -2rem;
     left: 70%;
 }
 
@@ -35,6 +37,7 @@
 }
 
 .product p:nth-of-type(2){
+    margin-top: 1rem;
     font-size: 18px;
     font-weight: bold;
 }
