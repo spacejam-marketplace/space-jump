@@ -23,7 +23,7 @@
     color: white;
     position: relative;
     margin-top: -2rem;
-    left: 70%;
+    left: calc(100% - 5.5rem);
 }
 
 .product h2{
@@ -49,5 +49,5 @@
     font-weight: bold;
     color: var(--lightBlue);
     position: relative;
-    left: 72%;
+    left: calc(100% - 80px);
 }
