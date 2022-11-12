@@ -89,14 +89,43 @@ header div:nth-of-type(1) img {
 
     .envelope__icon {
         position: absolute;
+        scale: .9;
         top: 20px;
-        filter: invert(95%) sepia(5%) hue-rotate(358deg) brightness(0) saturate(100%) contrast(108%);
+        right: 60px;
+        filter: brightness(0) invert(1);
         
     }
     .cart__icon {
         position: absolute;
-        top: 20px;
-        filter: invert(95%) sepia(5%) hue-rotate(358deg) brightness(0) saturate(100%) contrast(108%);
+        scale: .9;
+        top: 17px;
+        right: 20px;
+        filter: brightness(0) invert(1);
+    }
+}
+@media (max-width: 610px) {
+    header div:nth-of-type(1) {
+        height: 0px;
+        padding: 0;
+
+        /* background-color: var(--darkBlue); */
+    }
+
+    .envelope__icon {
+        position: absolute;
+        scale: .9;
+        top: 40px;
+        right: 60px;
+        filter: brightness(0) invert(1);
+
+    }
+
+    .cart__icon {
+        position: absolute;
+        scale: .9;
+        top: 38px;
+        right: 20px;
+        filter: brightness(0) invert(1);
     }
 }
 
@@ -157,7 +186,7 @@ header div:nth-of-type(3) nav ul li {
 header div:nth-of-type(2){
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
     background-color: var(--darkBlue);
     height: 6.2rem;
@@ -177,6 +206,8 @@ header div:nth-of-type(2) button:nth-of-type(1){
 /* LOGO MOBILE */
 header div:nth-of-type(2) img{
     width: 15rem;
+    padding-left: 40px;
+    
 }
 
 
