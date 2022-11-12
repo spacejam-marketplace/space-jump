@@ -1,3 +1,12 @@
+/* MAIN */
+main {
+    grid-area: main;
+    
+}
+
+/* SECTION 1 Y 2 */
+
+
 main section:nth-of-type(1){
     width: 100%;
     height: 4rem;
@@ -11,15 +20,17 @@ main section:nth-of-type(1){
     column-span: all;
 }
 
+main section h3{
+    background-color: blue;
+}
+
 main section:nth-of-type(2){
-    width: 100%;
-    height: 4rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: var(--lightBlue);
-    column-span: all;
+    position: relative;
+    grid-area: main;
+    background-color: white;
+    height: 18rem;
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'bottom-footer bottom-footer bottom-footer';
 }
