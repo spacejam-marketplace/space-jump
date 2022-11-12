@@ -9,6 +9,7 @@
 
 .product img{
     width: 20rem;
+    height: 20rem;
     margin: 0 auto;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .product p:nth-of-type(3){
+    width: fit-content;
     font-size: 12px;
     font-weight: bold;
     color: var(--lightBlue);

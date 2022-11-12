@@ -9,11 +9,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-html{
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -50,6 +45,7 @@ input[type="reset"] {
 
 
 body {
+    width: 90%;
     max-width: 1900px;
     margin: 0 auto;
     display: grid;
@@ -63,7 +59,7 @@ body {
 
 @media (max-width: 1315px){
     body{
-        width: 100vw;
+        width: 100%;
     }
 }
 
