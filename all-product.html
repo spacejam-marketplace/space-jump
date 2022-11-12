@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/grid-main.css">
     <link rel="stylesheet" href="assets/css/atomicproduct.css">
+    <link rel="stylesheet" href="assets/css/all-product.css">
     <title>SPACE JUMP</title>
 </head>
 
@@ -61,14 +63,13 @@
 
     <main>
         <!-- DISCOUNT SECTION-->
-        <section>
-            <h1> 15% OFF USING CODE: 6688JUMP</h1>
-
+        <section class="banner-header">
+            <h1> 15% OFF USING CODE: 688JUMP</h1>
         </section>
 
         <!-- products section (t-shirts)-->
-        <section>
-            <h1>T-shirts</h1>
+        <h1 class="heading-section">T-SHIRTS</h1>
+        <section class="grid-container">
             <div class="product">
                 <img src="images/products/camiseta-nba-1.png" alt="">
                 <h2>NOMBRE PRODUCTO</h2>
@@ -122,8 +123,8 @@
         </section>
 
         <!-- products section (shoes)-->
-        <section>
-            <h1>SHOES</h1>
+        <h1 class="heading-section">SHOES</h1>
+        <section class="grid-container">
             <div class="product">
                 <img src="images/products/shoe1.png" alt="">
                 <h2>NOMBRE PRODUCTO</h2>
@@ -178,13 +179,14 @@
         </section>
 
         <!---------------------- BANNER---------------------->
-        <section>
-            <img src="" alt="">banner perperprpgit
+        <section class="banner-grid">
+            <img src="" alt="">
         </section>
 
         <!-- products section (gadgets)-->
-        <section>
-            <h1>GADGETS</h1>
+        <h1 class="heading-section">GADGETS</h1>
+        <section class="grid-container">
+
             <div class="product">
                 <img src="images/products/gadget4.png" alt="">
                 <h2>NOMBRE PRODUCTO</h2>
@@ -214,8 +216,8 @@
         </section>
 
         <!-- products section (headwear)-->
-        <section>
-            <h1>HEADWEAR</h1>
+        <h1 class="heading-section">HEADWEAR</h1>
+        <section class="grid-container">
             <div class="product">
                 <img src="images/products/gadget1.png" alt="">
                 <h2>NOMBRE PRODUCTO</h2>
@@ -269,6 +271,7 @@
         </section>
 
     </main>
+
     <footer>
         <!-- Footer Desktop -->
         <ul>
@@ -297,17 +300,18 @@
         </ul>
         <div>
             <p>Follow us on:</p>
-            <button><img src="images/icon/twitter.svg" alt="twitter"></button>
-            <button><img src="images/icon/instagram.svg" alt="instagram"></button>
-            <button><img src="images/icon/youtube.svg" alt="youtube"></button>
-            <button><img src="images/icon/facebook.svg" alt="facebook"></button>
+            <div>
+                <button><img src="images/icon/instagram.svg" alt="instagram"></button>
+                <button><img src="images/icon/youtube.svg" alt="youtube"></button>
+                <button><img src="images/icon/twitter.svg" alt="twitter"></button>
+                <button><img src="images/icon/facebook.svg" alt="facebook"></button>
+            </div>
         </div>
 
         <!-- FOOTER MOBILE -->
         <div>
-            <p>© 2022 Space Jump</p>
-            <p>Privacy Policy | Terms and Conditions | Map of the Site | Cookies</p>
-            <p>Inc. All rights reserved</p>
+            <p>Privacy Policy |<br>Terms and Conditions | Map of the Site |<br>Cookies</p>
+            <p>© 2022 Space Jump Inc.<br><small>All rights reserved</small></p>
         </div>
     </footer>
 </body>
