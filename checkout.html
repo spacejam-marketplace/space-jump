@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LLAMADA A FONT AWESOME PARA EL ÍCONO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/checkout.css">
     <title>SPACE JUMP</title>
 </head>
 
@@ -52,6 +55,7 @@
                     <li><a href="#">SHOES</a></li>
                     <li><a href="#">GADGETS</a></li>
                     <li><a href="#">HEADWARE</a></li>
+                    <li><a href="#">HEADWARE</a></li>
                     <li><a href="#">CONTACT US</a></li>
                 </ul>
             </nav>
@@ -59,7 +63,21 @@
     </header>
 
     <main>
-        <section></section>
+        <form class="form-inline">
+            <div class="container">
+                <input type="text" id="fname" name="firstname" placeholder="Have a coupon?">
+                <input type="submit" value="Apply" class="btn">
+                <input type="text" id="email" name="email" placeholder="65€">
+                <input type="submit" value="Continue to checkout" class="btn">
+                <input type="submit" value="Paypal" class="btn">
+            </div>
+        </form>
+        <!--CÓDIGO CON EL LINK DE WHATSAPP API-->
+        <a href="https://api.whatsapp.com/send?phone=+34632411830&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SPACE JUMP."
+            class="floatWapp" target="_blank">
+            <i class="fa fa-whatsapp my-floatWapp"></i>
+        </a>
+        <!--CÓDIGO CON EL LINK DE WHATSAPP API-->
     </main>
     <footer>
         <!-- FOOTER DESKTOP -->
