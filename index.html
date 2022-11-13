@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="assets/css/grid-main.css">
     <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="assets/css/slide.css">
-    <script defer src="assets/js/cart.js" type="text/JavaScript" />
+
+    <!-- <script defer src="assets/js/cart.js" type="text/JavaScript" /> -->
     </script>
 
     <title>SPACE JUMP</title>
@@ -19,6 +20,16 @@
 
 <body>
     <header>
+        <nav id="menu-container" class="menu-mobile-container">
+            <ul>
+                <li><a id="closeButton" class="close-button" href="javascript:void(0)">&times;</a></li>
+                <li><a href="all-product.html">PRODUCTS</a></li>
+                <li><a href="#">T-SHIRTS</a></li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">GADGETS</a></li>
+                <li><a href="#">HEADWARE</a></li>
+            </ul>
+        </nav>
         <!-- CONTACT AND CART -->
         <div class="header__wrap">
             <button>
@@ -44,17 +55,17 @@
         </div>
         <!-- MOBILE HEADER -->
         <div>
-            <button>&#9776;</button>
-            <nav>
-                <!-- <ul>
-                    <li>&times;</li>
+            <button id="menuButton" class="menu-button">&#9776;</button>
+            <!-- <nav id="menu-container" class="menu-mobile-container">
+                <ul>
+                    <li><a href="javascript:void(0) id=" close-button">&times;</a></li>
                     <li><a href="all-product.html">PRODUCTS</a></li>
                     <li><a href="#">T-SHIRTS</a></li>
                     <li><a href="#">SHOES</a></li>
                     <li><a href="#">GADGETS</a></li>
                     <li><a href="#">HEADWARE</a></li>
-                </ul> -->
-            </nav>
+                </ul>
+            </nav> -->
             <img src="images/logo.svg" alt="logo" title="logo">
         </div>
 
@@ -250,6 +261,7 @@
             <p>© 2022 Space Jump Inc.<br><small>All rights reserved</small></p>
         </div>
     </footer>
+    <script src="assets/js/menu-button.js"></script>
 </body>
 
 </html>

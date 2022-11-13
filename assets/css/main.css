@@ -42,10 +42,6 @@ input[type="reset"] {
 
 
 /* MAIN LAYOUT */
-
-
-
-/* MAIN LAYOUT */
 body {
     width: 90%;
     max-width: 1900px;
@@ -127,6 +123,7 @@ body {
     }
 }
 
+
 /* LOGO */
 header div:nth-of-type(3) div {
     width: 100%;
@@ -190,6 +187,30 @@ header div:nth-of-type(2){
     align-items: center;
     background-color: var(--darkBlue);
     height: 6.2rem;
+}
+
+.menu-mobile-container{
+    width: 0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+    overflow-x: hidden;
+    background-color: var(--lightBlue);
+    color: white;
+    z-index: 20;
+}
+
+.menu-mobile-container ul li{
+    margin: 0 0 1rem 1rem;
+    font-size: 1.5rem;
+}
+
+.close-button{
+    font-size: 3.5rem;
+    position: relative;
+    left: calc(100% - 40px);
 }
 
 
