@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +9,25 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/modal.css">
-    <!-- <script defer src="assets/js/cart.js" type="text/JavaScript" /> -->
+    <script defer src="assets/js/cart.js" type="text/JavaScript">
+    </script>
     <title>SPACE JUMP</title>
 </head>
 
 <body>
     <header>
+        <nav id="menu-container" class="menu-mobile-container">
+            <ul>
+                <li><a id="closeButton" class="close-button" href="javascript:void(0)">&times;</a></li>
+                <li><a href="all-product.html">PRODUCTS</a></li>
+                <li><a href="#">T-SHIRTS</a></li>
+                <li><a href="#">SHOES</a></li>
+                <li><a href="#">GADGETS</a></li>
+                <li><a href="#">HEADWARE</a></li>
+            </ul>
+        </nav>
         <!-- CONTACT AND CART -->
-        <div>
+        <div class="header__wrap">
             <button>
                 <a href="contact.html">
                     <img class="envelope__icon" src="images/icon/envelope.svg" alt="envelope">
@@ -39,17 +51,17 @@
         </div>
         <!-- MOBILE HEADER -->
         <div>
-            <button>&#9776;</button>
-            <nav>
-                <!-- <ul>
-                    <li>&times;</li>
-                    <li><a href="all-product.html">PRODUCTS</a></li>
-                    <li><a href="#">T-SHIRTS</a></li>
-                    <li><a href="#">SHOES</a></li>
-                    <li><a href="#">GADGETS</a></li>
-                    <li><a href="#">HEADWARE</a></li>
-                </ul> -->
-            </nav>
+            <button id="menuButton" class="menu-button">&#9776;</button>
+            <!-- <nav id="menu-container" class="menu-mobile-container">
+                    <ul>
+                        <li><a href="javascript:void(0) id=" close-button">&times;</a></li>
+                        <li><a href="all-product.html">PRODUCTS</a></li>
+                        <li><a href="#">T-SHIRTS</a></li>
+                        <li><a href="#">SHOES</a></li>
+                        <li><a href="#">GADGETS</a></li>
+                        <li><a href="#">HEADWARE</a></li>
+                    </ul>
+                </nav> -->
             <img src="images/logo.svg" alt="logo" title="logo">
         </div>
 
@@ -74,7 +86,7 @@
         <section class="banner-header">
             <h1> 15% OFF USING CODE: 688JUMP</h1>
         </section>
-
+        <h1 class="heading-section">CONTACT</h1>
         <!-- FORMULARIO -->
         <form>
             <input type="text" placeholder="NAME">
@@ -83,7 +95,6 @@
             <input type="submit" value="SEND">
         </form>
         <!-- PREGUNTAS FRECUENTES -->
-        <h2>Quick assistance service</h2>
         <section>
             <ul>
                 <li>
@@ -125,13 +136,6 @@
                 </a>
             </ul>
         </section>
-
-        <!--CÓDIGO CON EL LINK DE WHATSAPP API-->
-        <!--<a href="https://api.whatsapp.com/send?phone=+34632411830&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20SPACE JUMP."
-            class="floatWapp" target="_blank">
-            <i class="fa fa-whatsapp my-floatWapp"></i>
-        </a>-->
-        <!--CÓDIGO CON EL LINK DE WHATSAPP API-->
     </main>
 
     <footer>
@@ -176,6 +180,7 @@
             <p>© 2022 Space Jump Inc.<br><small>All rights reserved</small></p>
         </div>
     </footer>
+    <script src="assets/js/menu-button.js"></script>
 </body>
 
 </html>

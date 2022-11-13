@@ -200,6 +200,7 @@ header div:nth-of-type(2){
     background-color: var(--lightBlue);
     color: white;
     z-index: 20;
+    white-space: nowrap;
 }
 
 .menu-mobile-container ul li{
