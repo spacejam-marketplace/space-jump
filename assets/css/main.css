@@ -64,7 +64,7 @@ body {
 }
 
 /* CART AND CONTACT DESKTOP */
-header div:nth-of-type(1){
+.header__wrap{
     padding: 0.6rem;
     background-color: white;
     display: flex;
@@ -75,12 +75,12 @@ header div:nth-of-type(1){
     grid-area: contact;
 }
 
-header div:nth-of-type(1) img {
+.header__wrap img {
     width: 2rem;
 }
 
 @media (max-width: 1200px){
-    header div:nth-of-type(1){
+    .header__wrap{
         height: 0px;
         padding: 0;
 
@@ -96,13 +96,13 @@ header div:nth-of-type(1) img {
     .cart__icon {
         position: absolute;
         scale: .9;
-        top: 15px;
+        top: 26px;
         right: 20px;
         filter: brightness(0) invert(1);
     }
 }
 @media (max-width: 610px) {
-    header div:nth-of-type(1) {
+    .header__wrap {
         height: 0px;
         padding: 0;
     }
@@ -119,7 +119,7 @@ header div:nth-of-type(1) img {
     .cart__icon {
         position: absolute;
         scale: .9;
-        top: 35px;
+        top: 45px;
         right: 20px;
         filter: brightness(0) invert(1);
     }
