@@ -38,7 +38,7 @@
 }
 input[type=text1] {
     background: #ffffff;
-    width: 50%;
+    width: 85%;
     margin-bottom: 5px;
     padding: 12px;
     border: 1px solid #FF6700;
@@ -46,7 +46,7 @@ input[type=text1] {
 }
 input[type=text2] {
     background: #ffffff;
-    width: 100%;
+    width: 85%;
     height: 72px;
     margin-bottom: 20px;
     padding: 12px;
