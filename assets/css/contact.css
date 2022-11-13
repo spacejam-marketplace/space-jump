@@ -1,5 +1,6 @@
 form{
-    width: 40rem;
+    width: 80vw;
+    max-width: 40rem;
     height: 30rem;
     display: flex;
     flex-flow: column nowrap;
@@ -30,20 +31,62 @@ form input:nth-of-type(3){
     font-weight: bold;
 }
 
-h2:nth-of-type(1){
-    margin-top: 4rem;
-}
-
-section ul li h2:nth-of-type(1){
-    margin-top: 4rem;
+.faq-title{
+    margin: 4rem;
 }
 
 main section:nth-of-type(2){
-    display: flex;
-    justify-content: space-between;
-    height: 20rem;
+    display: grid;
+    height: max-content;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
 }
 
-section ul li{
+
+main section:nth-of-type(2) ul li h2{
+    margin-bottom: 2rem;
+}
+
+main section:nth-of-type(2) ul{
+    padding: 2rem;
+}
+
+main section:nth-of-type(2) ul li{
     margin-top: 1rem;
+}
+
+
+@media (max-width: 610px){
+    form{
+        margin-top: 0;
+        width: 100vw;
+        border-radius: 0;
+        align-items: center;
+    }
+
+    form input:nth-of-type(3){
+        left: unset;
+        margin: 0 auto;
+    }
+
+    form input, textarea{
+        width: 90vw;
+        margin-bottom: 1.2rem;
+        padding: 0.5rem;
+        border-radius: 0.3rem;
+    }
+}
+
+@media (max-width: 370px){
+    form{
+        width: 100vw;
+    }
+
+    main section:nth-of-type(2){
+        display: grid;
+        height: max-content;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        padding: unset;
+    }
 }
