@@ -181,7 +181,7 @@ header div:nth-of-type(3) nav ul li:hover {
 
 
 /* NAV MOBILE */
-header div:nth-of-type(2){
+.nav__mobile{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -221,7 +221,7 @@ header div:nth-of-type(2) button img{
 }
 
 
-header div:nth-of-type(2) button:nth-of-type(1){
+.menu-button{
 
     color: white;
     font-size: 2rem;
@@ -230,37 +230,37 @@ header div:nth-of-type(2) button:nth-of-type(1){
 }
 
 /* LOGO MOBILE */
-header div:nth-of-type(2) img{
+.logo_mobile {
     width: 15rem;
 }
 @media (max-width:610px) {
-    header div:nth-of-type(2) img {
+    .logo_mobile {
         width: 12rem;
         margin-left: 150px;
     }
 }
 @media (max-width:550px) {
-    header div:nth-of-type(2) img {
+    .logo_mobile {
         width: 12rem;
         margin-left: 100px;
     }
 }
 @media (max-width:466px){
-    header div:nth-of-type(2) img {
+    .logo_mobile {
         width: 12rem;
         margin-left: 70px;
     
         }
 }
 @media (max-width:415px) {
-    header div:nth-of-type(2) img {
+    .logo_mobile {
         width: 12rem;
         margin-left: 50px;
 
     }
 }
 @media (max-width:390px) {
-    header div:nth-of-type(2) img {
+    .logo_mobile {
         width: 12rem;
         margin-left: 40px;
 
@@ -269,7 +269,7 @@ header div:nth-of-type(2) img{
 
 /* NAV MOBILE -- HIDE AT 650PX */
 @media (min-width: 610px){
-    header div:nth-of-type(2){
+    .nav__mobile{
         display: none;
     }
 }

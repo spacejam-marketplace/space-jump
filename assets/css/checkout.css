@@ -62,7 +62,13 @@ input[type=text2] {
 }
 
 .checkout__productlist{
-    /* grid-area: 1 / 3 / 2 / 4; */
     height: fit-content;
     width: 100%;
 }
+.checkout-space__content__product {}
+
+.checkout-space__content__img {}
+.checkout-space__content__title {}
+.checkout-space__content__price {}
+.checkout-space__content__ud {}
+.checkout-space__content__remove {}
