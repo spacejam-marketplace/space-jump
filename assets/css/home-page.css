@@ -26,7 +26,11 @@ main section:nth-of-type(2){
 }
 
 
-
-
-
-
+.banner-grid-home-page{
+    width: 100%;
+    height: 25rem;
+    background-image: url(/space-jump/images/slider/sneakers.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

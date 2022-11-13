@@ -1,0 +1,109 @@
+.slider-frame{
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    overflow: hidden;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-position: 50% 0%;
+    }
+    11%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/jordan.png);
+    }
+    22%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/jordan.png);
+    }
+    30%{
+        opacity: 1;
+        background-position: 50% 80%;
+    }
+    33%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-position: 50% 0%;
+    }
+    34%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-position: bottom;
+    }
+    44%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/shoot.png);
+    }
+    55%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/shoot.png);
+    }
+    60%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-position: top;
+    }
+    67%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/sneakers.png);
+        background-position: top;
+    }
+    77%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/sneakers.png);
+    }
+    88%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/sneakers.png);
+    }
+    95%{
+        opacity: 1;
+        background-position: 50% 90%;
+    }
+    100%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/sneakers.png);
+        background-position: 50% 0%;
+    }
+}
+
+.img-container1{
+    width: 100%;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: fade-in;
+    animation-duration: 22s;
+    animation-iteration-count: infinite;
+}
+
+.img-container2{
+    width: 100%;
+    height: 40rem;
+    background-image: url(/space-jump/images/slider/jordan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container3{
+    width: 100%;
+    height: 40rem;
+    background-image: url(/space-jump/images/slider/shoot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1100px){
+    .slider-frame{
+        display: none;
+    }
+}
