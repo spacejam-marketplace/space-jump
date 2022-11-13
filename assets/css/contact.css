@@ -1,0 +1,49 @@
+form{
+    width: 40rem;
+    height: 30rem;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--lightBlue);
+    margin: 0 auto; 
+    margin-top: 5rem;
+    padding: 5rem;
+    border-radius: 0.3rem;
+}
+
+form input, textarea{
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+form textarea{
+    height: 10rem;
+}
+
+form input:nth-of-type(3){
+    position: relative;
+    left: calc(100% - 8rem);
+    background-color: var(--orange);
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    font-weight: bold;
+}
+
+h2:nth-of-type(1){
+    margin-top: 4rem;
+}
+
+section ul li h2:nth-of-type(1){
+    margin-top: 4rem;
+}
+
+main section:nth-of-type(2){
+    display: flex;
+    justify-content: space-between;
+    height: 20rem;
+}
+
+section ul li{
+    margin-top: 1rem;
+}

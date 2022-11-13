@@ -1,25 +1,91 @@
-main section:nth-child(2) div:nth-child(1){
+.slider-frame{
+    position: relative;
     width: 100%;
     height: 40rem;
+    overflow: hidden;
 }
 
-@-webkit-keyframes slide_animation{
-    0% {left:0px;}
-    10% {left:0px;}
-    20% {left:1200px;}
-    30% {left:1200px;}
-    40% {left:2400px;}
-    50% {left:2400px;}
-    60% {left:1200px;}
-    70% {left:1200px;}
-    80% {left:0px;}
-    90% {left:0px;}
-    100% {left:0px;}
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    45%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/jordan.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    51%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    95%{
+        opacity: 1;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        opacity: 0;
+        background-image: url(/space-jump/images/slider/shoot.png);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-.slide-img{
-    width: 3600px;
-    height: 800px;
-    margin: 0 0 0 -2400px;
-    position: relative;
+.img-container1{
+    width: 100%;
+    height: 40rem;
+    background-image: url(/space-jump/images/slider/box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: fade-in;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.img-container2{
+    width: 100%;
+    height: 40rem;
+    background-image: url(/space-jump/images/slider/jordan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-container3{
+    width: 100%;
+    height: 40rem;
+    background-image: url(/space-jump/images/slider/shoot.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,0 +1,32 @@
+:root {
+    /* Color Palette */
+    --orange: #FF6700;
+    --darkBlue: #004E98;
+    --lightBlue: #3A6EA5;
+    --lightGray: #EBEBEB;
+
+}
+
+main section:nth-of-type(1){
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: var(--lightBlue);
+    column-span: all;
+}
+
+main section:nth-of-type(2){
+    width: 100%;
+    height: 28rem;
+}
+
+
+
+
+
+

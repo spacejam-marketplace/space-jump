@@ -1,0 +1,53 @@
+.product{
+    margin: 0 auto;
+    height: fit-content;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+    padding: 0 2rem 0 2rem;
+}
+
+.product img{
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+
+.product button{
+    width: 5.5rem;
+    height: 1.8rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: var(--orange);
+    border-radius: 0.5rem;
+    color: white;
+    position: relative;
+    margin-top: -2rem;
+    left: calc(100% - 5.5rem);
+}
+
+.product h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* PRECIO */
+.product p:nth-of-type(1){
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product p:nth-of-type(2){
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product p:nth-of-type(3){
+    width: fit-content;
+    font-size: 12px;
+    font-weight: bold;
+    color: var(--lightBlue);
+    position: relative;
+    left: calc(100% - 80px);
+}
