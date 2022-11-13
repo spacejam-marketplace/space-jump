@@ -1,12 +1,27 @@
 
-1 - git switch main (cambiar a la rama principal)
+SPACE JUMP
 
-2 - git pull --rebase (Para actualizar la rama principal en nuestro repositorio local)
+DESCPCIÓN: 
 
-3 - git switch "nuestra rama" (Cambiar de nuevo a nuestra rama de trabajo)
+SpaceJump is a market place created to sell multiple basketball's accessories from vendors all over the world. Our scope
+is to satisfy the huge demand of our worldwide costumers and offer them the top brands products sponsored by the best 
+leaugue ever, the NBA! 
+Our web is divided in 4 pages, wich are: 
+-HOME PAGE: in the home page you will find and buy our exclusive products and you will be able to navigate all the section through
+the top menu.
 
-4 - git merge main (para traer actualizaciones main a tu rama de trabajo OJO A CONFLICTOS)
+-ALL PRODUCTS: in the all products page you will find all the accessories we actually offer you and the details of every one
+of them. With the menu on the top you will be able to navigate the page by filtering the products by type (t-shirts, shoes
+gadgets, headwear).
+On the top rightyou will also find the letter icon wich you can go to our contact page section and the cart icon that will send you to 
+the final stage of you journey with us, the payment.
 
-5 - git add // git commit // git push !!!!!EN TU RAMA!!!!
+-CHECKOUT: In the checkout page you will be able to pay all the products you choose by using pay-pal or credit card method
+and you can still go back to our product page with the top menu in case you want to purchase more.
 
-6 - Cuando los cambios esten concluidos hacer Pull Request en GitHub
+-CONTACT: In the contact page you will be able to contact our customer case service at any time by sending and E-mail mainly
+or contacting the through the specific channels. Also with ne navigation bar you will be able to go back to the product page 
+and home page.
+
+
+
