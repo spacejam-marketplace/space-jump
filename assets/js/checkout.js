@@ -1,5 +1,4 @@
 //============= Variables
-const main = document.querySelector("Main");
 const productlist = document.querySelector(".checkout__productlist");
 let cartArticlesArray = [];
 
@@ -8,7 +7,6 @@ let cartArticlesArray = [];
 document.addEventListener('DOMContentLoaded', () => {
     cartArticlesArray = JSON.parse(localStorage.getItem('cart')) || [];
     renderCheckout();
-
 });
 
 
@@ -32,8 +30,6 @@ function renderCheckout(){
             <button class="cart-space__content__remove" data-id="${article.id}">X</button>
         `;
         productlist.appendChild(div);
-
-        productlist.style.backgroundColor = '#000';
 
     });
 
