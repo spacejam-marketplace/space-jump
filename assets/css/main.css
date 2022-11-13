@@ -66,7 +66,7 @@ body {
 }
 
 /* CART AND CONTACT DESKTOP */
-header div:nth-of-type(1){
+.header__wrap{
     padding: 0.6rem;
     background-color: white;
     display: flex;
@@ -77,16 +77,15 @@ header div:nth-of-type(1){
     grid-area: contact;
 }
 
-header div:nth-of-type(1) img {
+.header__wrap img {
     width: 2rem;
 }
 
 @media (max-width: 1200px){
-    header div:nth-of-type(1){
+    .header__wrap{
         height: 0px;
         padding: 0;
 
-        /* background-color: var(--darkBlue); */
     }
 
     .envelope__icon {
@@ -94,23 +93,20 @@ header div:nth-of-type(1) img {
         scale: .9;
         top: 20px;
         left: calc(100% - 5.5rem);
-        /* right: 60px; */
         filter: brightness(0) invert(1);
     }
     .cart__icon {
         position: absolute;
         scale: .9;
-        top: 15px;
+        top: 26px;
         right: 20px;
         filter: brightness(0) invert(1);
     }
 }
 @media (max-width: 610px) {
-    header div:nth-of-type(1) {
+    .header__wrap {
         height: 0px;
         padding: 0;
-
-        /* background-color: var(--darkBlue); */
     }
 
     .envelope__icon {
@@ -125,7 +121,7 @@ header div:nth-of-type(1) img {
     .cart__icon {
         position: absolute;
         scale: .9;
-        top: 35px;
+        top: 45px;
         right: 20px;
         filter: brightness(0) invert(1);
     }
@@ -169,6 +165,9 @@ header div:nth-of-type(3) nav ul li {
     color: white;
     font-size: 1.2rem;
 }
+header div:nth-of-type(3) nav ul li:hover {
+    color: var(--black);
+}
 
 /* NAV DESKTOP -- REDUCE FONT SIZE AT 750PX */
 @media (max-width: 750px){
@@ -188,7 +187,6 @@ header div:nth-of-type(3) nav ul li {
 header div:nth-of-type(2){
     display: flex;
     flex-flow: row nowrap;
-    /* justify-content: space-between; */
     align-items: center;
     background-color: var(--darkBlue);
     height: 6.2rem;
@@ -205,17 +203,14 @@ header div:nth-of-type(2) button:nth-of-type(1){
 
     color: white;
     font-size: 2rem;
+    padding-left: .5rem;
 
 }
 
 /* LOGO MOBILE */
 header div:nth-of-type(2) img{
-    /* margin: 0 auto; */
     width: 15rem;
-
-
 }
-
 @media (max-width:610px) {
     header div:nth-of-type(2) img {
         width: 12rem;
