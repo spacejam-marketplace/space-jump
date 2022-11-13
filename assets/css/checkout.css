@@ -23,6 +23,7 @@
 * {
     box-sizing: border-box;
 }
+
 .form-inline {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,6 +37,7 @@
     padding: 5px 20px 15px 20px;
     border-radius: 3px;
 }
+
 input[type=text1] {
     background: #ffffff;
     width: 85%;
@@ -44,6 +46,7 @@ input[type=text1] {
     border: 1px solid #FF6700;
     border-radius: 3px;
 }
+
 input[type=text2] {
     background: #ffffff;
     width: 85%;
