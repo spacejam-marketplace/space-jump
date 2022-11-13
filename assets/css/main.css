@@ -185,7 +185,7 @@ header div:nth-of-type(2){
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    background-color: var(--darkBlue);
+    background-color: var(--orange);
     height: 6.2rem;
 }
 

@@ -21,13 +21,13 @@ function renderCheckout(){
     //Generar HTML
     cartArticlesArray.forEach( article => {
         const div = document.createElement('div');
-        div.className = "cart-space__content__product";
+        div.className = "checkout-space__content__product";
         div.innerHTML = `
-            <img class="cart-space__content__img" src="${article.image}">
-            <p class="cart-space__content__title">${article.title}</p>
-            <p class="cart-space__content__price">${article.price}</p>
-            <p class="cart-space__content__ud">${article.qty}ud</p>
-            <button class="cart-space__content__remove" data-id="${article.id}">X</button>
+            <img class="checkout-space__content__img" src="${article.image}">
+            <p class="checkout-space__content__title">${article.title}</p>
+            <p class="checkout-space__content__price">${article.price}</p>
+            <p class="checkout-space__content__ud">${article.qty}ud</p>
+            <button class="checkout-space__content__remove" data-id="${article.id}">X</button>
         `;
         productlist.appendChild(div);
 
