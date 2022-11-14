@@ -7,6 +7,18 @@
     align-items: top;
 }
 
+@media (max-width: 750px) {
+    .checkout {
+        flex-flow: column-reverse nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkout form {
+        width: 100%;
+    }
+}
+
 .checkout form {
     background-color: var(--lightBlue);
     border-radius: .5rem;
@@ -127,4 +139,16 @@
 .checkout-space__content__remove {
     color: white;
     background-color: red;
+}
+
+@media (max-width: 750px) {
+    .checkout {
+        flex-flow: column-reverse nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkout form {
+        width: 100vw;
+    }
 }
