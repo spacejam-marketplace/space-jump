@@ -110,7 +110,7 @@ function emptyCart() {
 
 //Guardar carrito e ir a Checkout.html
 function checkout() {
-    window.location='/checkout.html';
+    location.href = "checkout.html";
 }
 
 //Salvar el LocalStorage
