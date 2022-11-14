@@ -1,5 +1,7 @@
 //============= Variables
 const productlist = document.querySelector(".checkout__productlist");
+const total = document.querySelector(".total");
+let sum = 0;
 let cartArticlesArray = [];
 
 
@@ -15,8 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
 //Renderizar el array de articulos
 function renderCheckout(){
 
-    //Limpiar HTML a cada click para que no repita productos
+    //Limpiar HTML a cada click para que no repita productos y reseta el total
     productlist.innerHTML = '';
+    sum = 0;
 
     //Generar HTML
     cartArticlesArray.forEach( article => {
@@ -31,6 +34,13 @@ function renderCheckout(){
         `;
         productlist.appendChild(div);
 
+        let sumNew = parseInt(article.price.replace(/[^0-9]/g, ''));
+
+        sum +=  sumNew;
+        console.log(sum)
+        total.innerHTML = `
+            <p class="total">Card total: ${sum}</p>
+        `;
     });
 
 
